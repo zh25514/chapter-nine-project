@@ -1,0 +1,12 @@
+body {  /* Body tag selector */
+    background-color: violet;   /* Sets the background-color to violet */
+}
+
+#hello {    /* h1 Tag selector */
+    color: blue;    /* Sets the color of the h1 element to blue */
+}
+
+#hello:hover {  /* h1 Selector with :hover pseudoclass */
+    color: white;   /* Sets the color of the h1 element to white when it is hovered over */
+    background-color: blueviolet;   /* Sets the background-color of the h1 element to blueviolet when hovered over */
+}
